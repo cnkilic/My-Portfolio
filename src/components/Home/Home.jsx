@@ -22,7 +22,7 @@ function Home() {
           className="text-xl font-medium rounded-full bg-zinc-200 py-2 px-6 hover:bg-zinc-100"
           href="#Projects"
         >
-          View My Projects
+          View My Projects deneme
         </a>
       </div>
     </section>
