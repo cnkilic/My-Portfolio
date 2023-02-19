@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <>
-      <div className="container fixed  bg-white bg-opacity-50 max-w-full mx-auto py-6  px-32 flex justify-between ">
+      <div className="container fixed z-10 bg-white bg-opacity-50 max-w-full mx-auto py-6  px-32 flex justify-between ">
         <div className="logo flex align-middle justify-center text-center items-center">
           <a href="#Home">
             <h1 className="text-lg font-semibold">Can.dev</h1>
