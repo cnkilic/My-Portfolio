@@ -171,16 +171,22 @@ function SkillsSphere() {
         <a key={4} style={{ color: "red", fontSize: 50, fontWeight: 500 }}>
           <img
             src={"/github-logo.png"}
-            style={{ height: "5px", width: "5px" }}
+           
             alt="Trulli"
             width="72"
             height="42"
           />
         </a>
         
-        <a key={4} style={{ color: "red", fontSize: 50, fontWeight: 500 }}>
-          <img src={"/react.png"} alt="Trulli" width="62" height="42" />
+        <a href="javascript:void(0)" key={2} >
+          <img src={"/assets/icons/github.png"}  alt="Trulli" width="62" height="42" />
         </a>
+
+        <a href="javascript:void(0)" key={5} >
+          <img src={"/assets/icons/react.png"} alt="Trulli" width="62" height="42" />
+        </a>
+        
+        
 
 
         <a key={9} style={{ color: "red", fontSize: 50, fontWeight: 500 }}>
@@ -213,7 +219,7 @@ function SkillsSphere() {
             />
           </div>
         </a>
-        <a key={10} style={{ color: "red", fontSize: 50, fontWeight: 500 }}>
+        <a href="javascript:void(0)" key={10} style={{ color: "red", fontSize: 50, fontWeight: 500 }}>
           hello
         </a>
         <a
