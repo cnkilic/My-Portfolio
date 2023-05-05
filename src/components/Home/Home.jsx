@@ -46,9 +46,9 @@ function Home() {
                   alt=""
                 />
 
-                <h2 className="text-3xl font-bold mb-6 ">Hello World! 👋🏽</h2>
-                <h1 className="text-5xl font-bold mb-6">I'm Can Kılıç</h1>
-                <h2 className="text-3xl font-medium mb-6">
+                <h2 className="text-3xl font-bold mb-6 text-zinc-300">Hello World! 👋🏽</h2>
+                <h1 className="text-5xl font-bold mb-6 text-zinc-300">I'm Can Kılıç</h1>
+                <h2 className="text-3xl font-medium mb-6 text-zinc-300">
                   <Type />
                 </h2>
                 <a

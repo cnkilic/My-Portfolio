@@ -8,12 +8,12 @@ function About() {
   return (
     <section id="About">
       <div className="container max-w-full py-12 px-32 bg-zinc-200 ">
-        <h1 className="text-3xl font-bold mb-6 text-center">
+        <h1 className="text-3xl font-bold mb-16 text-center">
           About Me & My Skills
         </h1>
 
         <div className="grid grid-cols-12 gap-8 justify-between">
-          <div className="col-span-5 flex flex-col  justify-center">
+          <div className="col-span-6 flex flex-col  justify-center">
             <Fade left>
               <h2 className="mb-2 text-2xl font-medium">
                 Welcome to my portfolio page! My name is Can Kılıç, and I am a
@@ -51,7 +51,7 @@ function About() {
               </p>
             </Fade>
           </div>
-          <div className="col-span-5 col-start-8">
+          <div className="col-span-6 col-start-8">
             <Rotate top left>
               <SkillsSphere />
             </Rotate>

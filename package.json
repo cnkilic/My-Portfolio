@@ -15,8 +15,9 @@
     "react-icon-cloud": "^4.1.4",
     "react-icons": "^4.7.1",
     "react-reveal": "^1.2.2",
-    "simple-icons": "^8.5.0",
-    "typewriter-effect": "^2.19.0"
+    "simple-icons": "^8.9.0",
+    "typewriter-effect": "^2.19.0",
+    "uuid": "^9.0.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
