@@ -3,15 +3,12 @@ import React from "react";
 function Contact() {
   return (
     <section id="Contact">
-      <div className="p-6 bg-orange-100 h-screen font-sans">
-        <h2 className="text-2xl font-medium mb-6">Welcome to Contact</h2>
-        <p className="text-gray-700">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          euismod, velit a commodo pharetra, sem velit blandit velit, vel
-          aliquet ipsum dui at libero. Curabitur tempor facilisis ante a
-          accumsan.
-        </p>
+      <div className="container max-w-full py-12 px-32 bg-zinc-100 ">
+        <h1 className="text-3xl font-bold mb-16 text-center">Contact</h1>
+        
       </div>
+
+    
     </section>
   );
 }
