@@ -4,7 +4,6 @@ import { Cloud, renderSimpleIcon } from "react-icon-cloud";
 import * as AllIcons from "simple-icons";
 
 function SkillsSphere() {
-  console.log("AllIcons", AllIcons);
   let background = "#fff";
 
   const rootStyle = {

@@ -24,14 +24,14 @@ function Sample({
             <div className="text-lg font-bold">{title}</div>
 
             <div className="flex flex-col gap-4">
-              {descriptions.map((description) => (
-                <div>{description}</div>
+              {descriptions.map((description,index) => (
+                <div key={index}>{description}</div>
               ))}
             </div>
 
             <div className="flex flex-row gap-2 flex-wrap">
-              {techStacks.map((techStack) => (
-                <span className="rounded-md bg-gray-600 text-zinc-100 px-3 py-1">
+              {techStacks.map((techStack,index) => (
+                <span key={index} className="rounded-md bg-gray-600 text-zinc-100 px-3 py-1">
                   {techStack}
                 </span>
               ))}
