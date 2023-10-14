@@ -4,10 +4,6 @@ import ShowMoreSample from "./ShowMoreSample";
 import Fade from "react-reveal/Fade";
 
 function ShowMore({ showMoreData }) {
-  console.log(
-    "🚀 ~ file: ShowMore.jsx:6 ~ ShowMore ~ showMoreData:",
-    showMoreData
-  );
   const [showMore, setShowMore] = useState(false);
 
   return (

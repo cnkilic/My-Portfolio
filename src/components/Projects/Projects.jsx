@@ -52,7 +52,7 @@ function Projects() {
       descriptions: [
         "This app is a budget tracking tool that separates expenses by year and displays them through proportional charts.",
       ],
-      techStacks: ["React", "JavaScript", "HTML5", "CSS3"],
+      techStacks: ["React", "JavaScript", "CSS3"],
       gitHubLink: "https://github.com/cnkilic/Expense-Table-Chart",
       externalLink: "https://expense-table-chart.netlify.app/",
       image: "/assets/images/expenseTable.png",

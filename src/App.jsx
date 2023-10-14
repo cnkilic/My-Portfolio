@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <Experieces />
       <Contact />
-      <AnchorMail />
+      {/* <AnchorMail /> */}
       <AnchorLinks />
       <Footer />
     </div>
