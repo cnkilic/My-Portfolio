@@ -43,7 +43,7 @@ function Header() {
                 Contact
               </a>
             </li>
-            <li>
+            <li className="animate-[wiggle_1s_ease-in-out_infinite]">
               <a
                 className="bg-slate-400 rounded-full px-6 py-2 hover:bg-slate-300 transition-all border-slate-400"
                 href="/Can_Kilic_CV.pdf"

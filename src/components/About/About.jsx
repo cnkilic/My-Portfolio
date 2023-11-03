@@ -1,8 +1,7 @@
 import React from "react";
 import SkillsSphere from "./SkillsSphere";
-import Fade from "react-reveal/Fade";
-import Spin from "react-reveal/Spin";
-import Rotate from "react-reveal/Rotate";
+import { Fade, Rotate } from "react-awesome-reveal";
+
 
 function About() {
   return (
@@ -14,19 +13,19 @@ function About() {
 
         <div className="grid grid-cols-12 gap-8 justify-between">
           <div className="col-span-6 flex flex-col  justify-center">
-            <Fade left>
+            <Fade triggerOnce duration={1500} direction="left">
               <h2 className="mb-2 text-2xl font-medium">
                 Welcome to my portfolio page! My name is Can Kılıç, and I am a
                 frontend web developer from Turkey.
               </h2>
             </Fade>
-            <Fade left>
+            <Fade triggerOnce duration={1500} direction="left">
               <h3 className="mb-4 text-xl font-medium">
                 I'm passionate about cutting-edge, pixel-perfect, responsive
                 user interfaces and dynamic user experiences.
               </h3>
             </Fade>
-            <Fade left>
+            <Fade triggerOnce duration={1500} direction="left">
               <p className="mb-4 text-base font-medium">
                 My journey in software development started after I graduated
                 from METU with a degree in Civil Engineering. I realized that my
@@ -52,7 +51,7 @@ function About() {
             </Fade>
           </div>
           <div className="col-span-6 col-start-8">
-            <Rotate top left>
+            <Rotate triggerOnce direction="bottom-left" duration={1500}  >
               <SkillsSphere />
             </Rotate>
           </div>

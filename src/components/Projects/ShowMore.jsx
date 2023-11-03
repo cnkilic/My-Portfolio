@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { MdExpandMore, MdExpandLess } from "react-icons/md";
 import ShowMoreSample from "./ShowMoreSample";
-import Fade from "react-reveal/Fade";
+import { Fade } from "react-awesome-reveal";
 
 function ShowMore({ showMoreData }) {
   const [showMore, setShowMore] = useState(false);
@@ -10,7 +10,7 @@ function ShowMore({ showMoreData }) {
     <div>
       {showMore && (
         <div className="grid grid-cols-3 2xl:grid-cols-4 gap-4 mb-8 ease-out">
-          <Fade top>
+          <Fade triggerOnce  direction="up">
             {showMoreData.map((showMoreSample) => (
               <ShowMoreSample
                 key={showMoreSample.title}

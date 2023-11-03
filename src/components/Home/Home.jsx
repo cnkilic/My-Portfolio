@@ -2,19 +2,7 @@ import React, { useRef } from "react";
 
 import Type from "./Type";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
-
-import Fade from "react-reveal/Fade";
-import LightSpeed from "react-reveal/LightSpeed";
-import Bounce from "react-reveal/Bounce";
-
-import Rotate from "react-reveal/Rotate";
-import Roll from "react-reveal/Roll";
-import Flip from "react-reveal/Flip";
-import Zoom from "react-reveal/Zoom";
-import RubberBand from "react-reveal/RubberBand";
-import Shake from "react-reveal/Shake";
-import Spin from "react-reveal/Spin";
-import Wobble from "react-reveal/Wobble";
+import { Bounce,Fade } from "react-awesome-reveal";
 
 function Home() {
   const ref = useRef();
@@ -32,7 +20,7 @@ function Home() {
         >
           {/* <img src={url('././assets/images/bg1.png')} style={{ width: '15%', marginLeft: '70%' }} /> */}
         </ParallaxLayer>
-        <Bounce bottom>
+        <Fade triggerOnce duration={1500} >
           <ParallaxLayer offset={0} speed={0}>
             <section id="Home">
               <div className=" p-6 h-screen  flex flex-col justify-center items-center">
@@ -44,10 +32,10 @@ function Home() {
                   alt=""
                 />
 
-                <h2 className="text-3xl font-bold mb-6 text-zinc-300">
+                <h2 className="text-3xl font-bold mb-6 text-zinc-300 ">
                   Hello World! 👋🏽
                 </h2>
-                <h1 className="text-5xl font-bold mb-6 text-zinc-300">
+                <h1 className="text-5xl font-bold mb-6 text-zinc-300 ">
                   I'm Can Kılıç
                 </h1>
                 <h2 className="text-3xl font-medium mb-6 text-zinc-300">
@@ -62,7 +50,7 @@ function Home() {
               </div>
             </section>
           </ParallaxLayer>
-        </Bounce>
+        </Fade>
       </Parallax>
     </div>
   );

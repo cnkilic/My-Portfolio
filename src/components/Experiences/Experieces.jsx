@@ -19,9 +19,10 @@ function Experieces() {
         <h1 className="text-3xl font-bold mb-16 text-center">Experiences</h1>
         <VerticalTimeline>
           <VerticalTimelineElement
-            className="vertical-timeline-element--work "
+            className="vertical-timeline-element--work"
             date="September 2022 - Present"
             iconStyle={{ background: "#323330", color: "#61DBFB" }}
+            contentStyle={{ borderTop: "3px solid #323330",borderBottom: "3px solid #323330" }}
             icon={<FaReact />}
           >
             <h4 className="vertical-timeline-element-title text-xl font-semibold ">
@@ -67,6 +68,7 @@ function Experieces() {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
+            contentStyle={{ borderTop: "3px solid #323330", borderBottom: "3px solid #323330" }}
             date="May 2022 - September 2022"
             iconStyle={{ background: "#323330", color: "#f7df1e" }}
             icon={<SiJavascript />}
