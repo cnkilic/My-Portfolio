@@ -6,8 +6,8 @@ function Footer() {
   return (
     <>
       <div className="bg-white py-3 shadow-md text-center flex justify-between px-32">
-        <div>Designed and Developed by Can Kılıç </div>
-        <div>Copyright © 2023 CK</div>
+        <div className="font-medium">Designed and Developed by Can Kılıç </div>
+        <div className="font-medium">Copyright © 2023 CK</div>
         <div className="flex gap-6 fill-neutral-600">
           <a
             href="https://www.linkedin.com/in/can-kilicc-"
