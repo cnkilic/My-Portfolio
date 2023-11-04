@@ -33,7 +33,8 @@ function Home() {
                 />
 
                 <h2 className="text-3xl font-bold mb-6 text-zinc-300 ">
-                  Hello World! 👋🏽
+                  Hello World! 
+                  <span className="animate-[wawe_2.1s_ease-in-out_infinite]  ml-3 inline-block origin-[70%_70%]">👋🏻</span>
                 </h2>
                 <h1 className="text-5xl font-bold mb-6 text-zinc-300 ">
                   I'm Can Kılıç

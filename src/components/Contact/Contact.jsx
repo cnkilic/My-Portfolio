@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import { GoMail } from "react-icons/Go";
+import { AiFillInstagram ,AiFillMail} from "react-icons/ai";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import emailjs from "@emailjs/browser";
 import { BsFillBookmarkCheckFill } from "react-icons/bs";
@@ -35,18 +35,18 @@ function Contact() {
         (response) => {
           setFormModalOpen(true);
           setModalContent("success");
-          formRef.current[0].value=""
-          formRef.current[1].value=""
-          formRef.current[2].value=""
-          formRef.current[3].value=""
+          formRef.current[0].value = "";
+          formRef.current[1].value = "";
+          formRef.current[2].value = "";
+          formRef.current[3].value = "";
         },
         (error) => {
           setFormModalOpen(true);
           setModalContent("error");
-          formRef.current[0].value=""
-          formRef.current[1].value=""
-          formRef.current[2].value=""
-          formRef.current[3].value=""
+          formRef.current[0].value = "";
+          formRef.current[1].value = "";
+          formRef.current[2].value = "";
+          formRef.current[3].value = "";
         }
       );
   };
@@ -79,7 +79,12 @@ function Contact() {
                       Send A Message
                     </h2>
                     <div className="pr-16">
-                      <form ref={formRef} onSubmit={handleSubmit} method="POST" action="">
+                      <form
+                        ref={formRef}
+                        onSubmit={handleSubmit}
+                        method="POST"
+                        action=""
+                      >
                         <div>
                           <input
                             className="w-full py-1 px-2 border-2 rounded-md"
@@ -145,15 +150,6 @@ function Contact() {
                       <div className="flex mt-8">
                         <div className="mr-6">
                           <a
-                            href="https://github.com/cnkilic"
-                            rel="noopener noreferrer"
-                            target="_blank"
-                          >
-                            <FaGithub className="w-8 h-8 cursor-pointer hover:w-10 hover:h-10 ease-out transition-all" />
-                          </a>
-                        </div>
-                        <div className="mr-6">
-                          <a
                             href="https://www.linkedin.com/in/can-kilicc-"
                             rel="noopener noreferrer"
                             target="_blank"
@@ -163,11 +159,29 @@ function Contact() {
                         </div>
                         <div className="mr-6">
                           <a
+                            href="https://github.com/cnkilic"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <FaGithub className="w-8 h-8 cursor-pointer hover:w-10 hover:h-10 ease-out transition-all" />
+                          </a>
+                        </div>
+                        <div className="mr-6">
+                          <a
                             href="mailto:canklc9598@gmail.com"
                             rel="noopener noreferrer"
                             target="_blank"
                           >
-                            <GoMail className="w-8 h-8 cursor-pointer hover:w-10 hover:h-10 ease-out transition-all" />
+                            <AiFillMail className="w-8 h-8 cursor-pointer hover:w-10 hover:h-10 ease-out transition-all" />
+                          </a>
+                        </div>
+                        <div className="mr-6">
+                          <a
+                            href="https://www.instagram.com/cn_klc_"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                          >
+                            <AiFillInstagram  className="w-8 h-8 cursor-pointer hover:w-10 hover:h-10 ease-out transition-all" />
                           </a>
                         </div>
                       </div>
