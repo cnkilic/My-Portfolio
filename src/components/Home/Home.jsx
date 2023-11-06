@@ -32,18 +32,18 @@ function Home() {
                   alt=""
                 />
 
-                <h2 className="text-3xl font-bold mb-6 text-zinc-300 ">
+                <h2 className="text-3xl font-bold mb-6 text-zinc-200 ">
                   Hello World! 
                   <span className="animate-[wawe_2.1s_ease-in-out_infinite]  ml-3 inline-block origin-[70%_70%]">👋🏻</span>
                 </h2>
-                <h1 className="text-5xl font-bold mb-6 text-zinc-300 ">
+                <h1 className="text-5xl font-bold mb-6 text-zinc-200 ">
                   I'm Can Kılıç
                 </h1>
-                <h2 className="text-3xl font-medium mb-6 text-zinc-300">
+                <h2 className="text-3xl font-medium mb-6 text-zinc-200">
                   <Type />
                 </h2>
                 <a
-                  className="text-xl font-medium rounded-full bg-zinc-200 py-2 px-6 hover:bg-zinc-100"
+                  className="text-xl font-medium rounded-full bg-zinc-200 py-2 px-6 hover:bg-zinc-100 hover:shadow-xl"
                   href="#Projects"
                 >
                   View My Projects
