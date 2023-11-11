@@ -7,6 +7,7 @@ import "react-vertical-timeline-component/style.min.css";
 import { BiLinkExternal } from "react-icons/bi";
 import { SiJavascript } from "react-icons/Si";
 import { FaReact } from "react-icons/fa";
+import ArinaDigital from "/assets/images/arinaDigitalLogo.svg";
 import { FaHourglassStart } from "react-icons/fa";
 
 // import reactIcon from "/public/images/reactIcon.png";
@@ -21,15 +22,31 @@ function Experieces() {
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="September 2022 - Present"
-            iconStyle={{ background: "#323330", color: "#61DBFB" }}
-            contentStyle={{ borderTop: "3px solid #323330",borderBottom: "3px solid #323330" }}
-            icon={<FaReact />}
+            contentStyle={{
+              borderTop: "3px solid #323330",
+              borderBottom: "3px solid #323330",
+            }}
+            icon={<img src="/assets/images/inavitasLogo.svg" />}
+            iconOnClick={() => {
+              window.open("https://www.inavitas.com/", "_blank");
+            }}
+            iconStyle={{
+              background: "#FFF",
+              color: "#61DBFB",
+              cursor: "pointer",
+              boxShadow:
+                "0 0 0 4px #fff, inset 0px 0px 0px rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05) ",
+              display: "flex",
+              justifyContent: "center",
+            }}
           >
             <h4 className="vertical-timeline-element-title text-xl font-semibold ">
               Full-Stack Developer
             </h4>
             <h3 className="vertical-timeline-element-subtitle text-lg ">
-              <a href="https://www.inavitas.com/tr/">Inavitas</a>
+              <a target="_blank" href="https://www.inavitas.com/">
+                Inavitas
+              </a>
             </h3>
 
             <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
@@ -68,16 +85,32 @@ function Experieces() {
 
           <VerticalTimelineElement
             className="vertical-timeline-element--education"
-            contentStyle={{ borderTop: "3px solid #323330", borderBottom: "3px solid #323330" }}
+            contentStyle={{
+              borderTop: "3px solid #323330",
+              borderBottom: "3px solid #323330",
+            }}
             date="May 2022 - September 2022"
-            iconStyle={{ background: "#323330", color: "#f7df1e" }}
-            icon={<SiJavascript />}
+            iconStyle={{
+              background: "#FFF",
+              color: "#f7df1e",
+              cursor: "pointer",
+              boxShadow:
+                "0 0 0 4px #fff, inset 0px 0px 0px rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
+              display: "flex",
+              justifyContent: "center",
+            }}
+            icon={<img src="/assets/images/arinaDigitalLogo.svg" />}
+            iconOnClick={() => {
+              window.open("https://arinadigital.com/", "_blank");
+            }}
           >
-            <h4 className="vertical-timeline-element-title text-xl font-semibold ">
+            <h4 className="vertical-timeline-element-title text-xl font-semibold">
               Front-End Developer
             </h4>
             <h3 className="vertical-timeline-element-subtitle text-lg mb-3">
-              <a href="https://arinadigital.com/tr/">Arina Digital</a>
+              <a target="_blank" href="https://arinadigital.com/">
+                Arina Digital
+              </a>
             </h3>
             <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
               JavaScript
@@ -116,8 +149,23 @@ function Experieces() {
           </VerticalTimelineElement>
 
           <VerticalTimelineElement
-            iconStyle={{ background: "#323330", color: "#fff" }}
-            icon={<FaHourglassStart />}
+            iconStyle={{
+              background: "#fff",
+              color: "#323330",
+              boxShadow:
+                "0 0 0 4px #fff, inset 0px 0px 0px rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
+            }}
+            icon={
+              <FaHourglassStart
+                style={{
+                  width: "60%",
+                  height: "60%",
+                  transform: "translate(-50%, -50%)",
+                  marginLeft: "0px",
+                  marginTop: "0px",
+                }}
+              />
+            }
           />
         </VerticalTimeline>
       </div>

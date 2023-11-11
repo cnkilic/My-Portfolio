@@ -60,10 +60,24 @@ function Contact() {
             speed={5}
             factor={1.5}
             style={{
-              backgroundImage: `url("/assets/images/contactBg8.png")`,
+              backgroundImage: `url("/assets/images/dunya2.png")`,
               backgroundPosition: "center",
+              height: "1300px",
             }}
           ></ParallaxLayer>
+
+          <ParallaxLayer
+            offset={0}
+            speed={5}
+            factor={1.5}
+            style={{
+              backgroundPosition: "center",
+              height: "1300px",
+              background:"#0078ff",
+              opacity: ".5",
+            }}
+          ></ParallaxLayer>
+
           <ParallaxLayer
             style={{
               display: "flex",
@@ -73,7 +87,7 @@ function Contact() {
           >
             <section id="Contact">
               <div className="container max-w-10xl py-24 px-32  ">
-                <div className="bg-slate-100 grid grid-cols-2 py-9 px-16 rounded-xl">
+                <div className="bg-zinc-200 grid grid-cols-2 py-9 px-16 rounded-xl">
                   <div>
                     <h2 className="text-3xl font-semibold mb-6">
                       Send A Message
@@ -196,7 +210,7 @@ function Contact() {
 
       {formModalOpen && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-800 bg-opacity-75">
-          <div className="bg-white rounded-lg p-8 ">
+          <div className="bg-zinc-200 rounded-lg p-8 ">
             <div className="flex flex-col items-center ">
               {modalContent === "success" ? (
                 <BsFillBookmarkCheckFill className="h-16 w-16 mb-8 fill-green-600" />

@@ -15,10 +15,9 @@ function Home() {
           speed={5}
           factor={1.5}
           style={{
-            backgroundImage: `url("/assets/images/bg3.jpg")`,
+            backgroundImage: `url("/assets/images/homePageBg.jpg")`,
           }}
         >
-          {/* <img src={url('././assets/images/bg1.png')} style={{ width: '15%', marginLeft: '70%' }} /> */}
         </ParallaxLayer>
         <Fade triggerOnce duration={1500} >
           <ParallaxLayer offset={0} speed={0}>
