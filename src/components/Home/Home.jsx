@@ -18,6 +18,8 @@ function Home() {
             style={{
               backgroundImage: `url("/assets/images/homePageBg.jpg")`,
               height: "1307px",
+              backgroundSize: "revert-layer",
+              backgroundRepeat: "revert-layer",
             }}
           ></ParallaxLayer>
           <Fade triggerOnce duration={1500}>
