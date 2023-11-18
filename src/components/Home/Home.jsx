@@ -46,7 +46,7 @@ function Home() {
                   <Type />
                 </h2>
                 <a
-                  className="text-xs sm:text-sm md:text-md lg:text-lg xl:text-xl font-medium rounded-full bg-zinc-200 py-1.5  md:py-2 px-4 md:px-6 hover:bg-zinc-100 hover:shadow-xl"
+                  className="text-sm md:text-md lg:text-lg xl:text-xl font-medium rounded-full bg-zinc-200 py-1.5  md:py-2 px-4 md:px-6 hover:bg-zinc-100 hover:shadow-xl"
                   href="#Projects"
                 >
                   View My Projects

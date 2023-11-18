@@ -22,7 +22,9 @@ module.exports = {
       colors: {
         deneme: "#FFB6C1",
       },
-
+      spacing: {
+        '0.75': '0.21rem',
+      },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
       },

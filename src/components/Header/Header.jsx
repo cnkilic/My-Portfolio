@@ -111,63 +111,68 @@ function Header() {
           </button>
         </div>
       </div>
-      {isMobileMenuOpen && (
-        <div className="md:hidden bg-zinc-100   text-black shadow-lg font-bold justify-center text-center fixed flex-col top-0 z-30 left-0 right-0">
-          {/* Mobile Menu Content Here */}
-          <div className="flex flex-row ">
-            <div className="logo flex align-middle justify-center text-center items-center">
-              <a href="#Home">
-                <h1 className="text-lg md:text-xl xl:text-2xl font-bold">
-                  Can.dev
-                </h1>
-              </a>
-            </div>
-            <button
-              className="md:hidden ml-2 text-3xl focus:outline-none"
-              onClick={toggleMobileMenu}
-            >
-              ☰
-            </button>
+
+      {/* Mobile Menu Content Here */}
+      <div
+        className={`md:hidden bg-zinc-100 text-black shadow-lg font-bold justify-center text-center fixed flex-col top-0 z-30 left-0 right-0 duration-500 ease-in-out 
+          ${isMobileMenuOpen ? "-translate-y-0 " : "-translate-y-full"}`}
+      >
+        <div className="flex flex-row justify-between mt-4 px-8">
+          <div className="logo flex align-middle justify-center text-center items-center">
+            <a href="#Home" onClick={toggleMobileMenu}>
+              <h1 className="text-lg md:text-xl xl:text-2xl font-bold">
+                Can.dev
+              </h1>
+            </a>
           </div>
           <div>
-            <ul className="py-5">
-              <li>
-                <a
-                  className="block px-4 py-3 hover:bg-slate-100 transition-all mt-10"
-                  href="#About"
-                  onClick={toggleMobileMenu}
-                >
-                  About
-                </a>
-              </li>
-              <li>
-                <a
-                  className="block px-4 py-3 hover:bg-slate-100 transition-all"
-                  href="#Projects"
-                  onClick={toggleMobileMenu}
-                >
-                  Projects
-                </a>
-              </li>
-              <li>
-                <a
-                  className="block px-4 py-3 hover:bg-slate-100 transition-all"
-                  href="#Experiences"
-                  onClick={toggleMobileMenu}
-                >
-                  Experiences
-                </a>
-              </li>
-              <li>
-                <a
-                  className="block px-4 py-3 hover:bg-slate-100 transition-all"
-                  href="#Contact"
-                  onClick={toggleMobileMenu}
-                >
-                  Contact
-                </a>
-              </li>
-              {/* <li>
+            <button className="md:hidden focus:outline-none" onClick={toggleMobileMenu}>
+              <div className="w-6 h-6 flex flex-col justify-between items-center cursor-pointer relative">
+                <span className="w-5 h-0.75 bg-black transition-all transform origin-center rotate-45 absolute bottom-2"></span>
+                <span className="w-5 h-0.75 bg-black transition-all transform origin-center -rotate-45 absolute bottom-2"></span>
+              </div>
+            </button>
+          </div>
+        </div>
+        <div>
+          <ul className="py-5">
+            <li>
+              <a
+                className="block px-4 py-2 hover:bg-slate-100 transition-all "
+                href="#About"
+                onClick={toggleMobileMenu}
+              >
+                About
+              </a>
+            </li>
+            <li>
+              <a
+                className="block px-4 py-2 hover:bg-slate-100 transition-all"
+                href="#Projects"
+                onClick={toggleMobileMenu}
+              >
+                Projects
+              </a>
+            </li>
+            <li>
+              <a
+                className="block px-4 py-2 hover:bg-slate-100 transition-all"
+                href="#Experiences"
+                onClick={toggleMobileMenu}
+              >
+                Experiences
+              </a>
+            </li>
+            <li>
+              <a
+                className="block px-4 py-2 hover:bg-slate-100 transition-all"
+                href="#Contact"
+                onClick={toggleMobileMenu}
+              >
+                Contact
+              </a>
+            </li>
+            {/* <li>
               <a
                 className="flex px-4 py-2 hover:bg-slate-100 transition-all gap-3"
                 href="/Can_Kilic_CV.pdf"
@@ -181,31 +186,26 @@ function Header() {
                 </span>
               </a>
             </li> */}
-              <li>
-                <a
-                  className={`mt-1 bg-slate-700 flex flex-row gap-2 md:gap-3 rounded-full px-4 lg:px-6 py-1.5 hover:bg-slate-600 transition-all border-slate-600 ${
-                    currentScrollPosition < 30
-                      ? "text-zinc-100"
-                      : "text-zinc-100"
-                  }`}
-                  href="/Can_Kilic_CV.pdf"
-                  rel="noopener noreferrer"
-                  target="_blank"
-                >
-                  <span>Resume</span>
-                  <span>
-                    <img
-                      className="w-6"
-                      src="/assets/images/cv-icon.png"
-                      alt=""
-                    />
-                  </span>
-                </a>
-              </li>
-            </ul>
-          </div>
+            <li>
+              <a
+                className="mt-1 bg-slate-700 text-zinc-100 flex items-center gap-2 w-fit mx-auto md:gap-3 rounded-full px-4 lg:px-6 py-1.5 hover:bg-slate-600 transition-all border-slate-600 "
+                href="/Can_Kilic_CV.pdf"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <span>Resume</span>
+                <span>
+                  <img
+                    className="w-5"
+                    src="/assets/images/cv-icon.png"
+                    alt=""
+                  />
+                </span>
+              </a>
+            </li>
+          </ul>
         </div>
-      )}
+      </div>
     </>
   );
 }
