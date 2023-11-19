@@ -36,7 +36,7 @@ function Header() {
       <div
         className={`transition-transform duration-500 ease-in-out font-semibold ${
           visible ? "transform translate-y-0" : "transform -translate-y-full"
-        } container fixed items-center z-10 opacity-90 shadow-2xl max-w-full mx-auto py-4 px-8 md:px-8 lg:px-12 xl:px-24 2xl:px-32 flex justify-between ${
+        } container fixed items-center z-10 opacity-90 shadow-2xl max-w-full mx-auto py-4 px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32 flex justify-between ${
           currentScrollPosition < 30
             ? "text-zinc-200 bg-transparent shadow-none"
             : "text-black bg-zinc-100"

@@ -4,14 +4,14 @@ import { AiFillInstagram, AiFillMail } from "react-icons/ai";
 
 function AnchorLinks() {
   return (
-    <div className="fixed bottom-0 left-10  flex-col justify-center items-center hidden md:flex">
+    <div className="fixed bottom-0 left-2 md:left-4 lg:left-6 xl:left-8 2xl:left-10  flex-col justify-center items-center hidden md:flex">
       <a
         href="mailto:canklc9598@gmail.com"
         rel="noopener noreferrer"
         target="_blank"
         className="mb-3"
       >
-        <AiFillMail className="bg-zinc-100 w-7 h-7 lg:w-8 lg:h-8   rounded-full p-1" />
+        <AiFillMail className="bg-zinc-100 w-7 h-7 lg:w-8 lg:h-8 rounded-full p-1" />
       </a>
       <a
         href="https://github.com/cnkilic"
@@ -19,7 +19,7 @@ function AnchorLinks() {
         target="_blank"
         className="mb-3"
       >
-        <FaGithub className="bg-zinc-100 w-7 h-7 lg:w-8 lg:h-8  rounded-full p-1" />
+        <FaGithub className="bg-zinc-100 w-7 h-7 lg:w-8 lg:h-8 rounded-full p-1" />
       </a>
       <a
         href="https://www.linkedin.com/in/can-kilicc-"
@@ -27,7 +27,7 @@ function AnchorLinks() {
         target="_blank"
         className="mb-3"
       >
-        <FaLinkedin className="bg-zinc-100 w-7 h-7 lg:w-8 lg:h-8   rounded-full p-1" />
+        <FaLinkedin className="bg-zinc-100 w-7 h-7 lg:w-8 lg:h-8 rounded-full p-1" />
       </a>
       <a
         href="https://www.instagram.com/cn_klc_/"
@@ -35,7 +35,7 @@ function AnchorLinks() {
         target="_blank"
         className="mb-3"
       >
-        <AiFillInstagram className="bg-zinc-100 w-7 h-7 lg:w-8 lg:h-8  rounded-full p-1" />
+        <AiFillInstagram className="bg-zinc-100 w-7 h-7 lg:w-8 lg:h-8 rounded-full p-1" />
       </a>
       <div className="flex flex-row">
         <div className="h-16 lg:h-20 2xl:h-24 w-0.5 bg-black"></div>

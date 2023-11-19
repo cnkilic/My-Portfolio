@@ -53,7 +53,7 @@ function Contact() {
 
   return (
     <>
-      <div className="h-screen ">
+      <div className="h-screen">
         <Parallax ref={ref} pages={1.02}>
           <ParallaxLayer
             offset={0}

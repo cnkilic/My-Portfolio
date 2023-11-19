@@ -33,7 +33,7 @@ function Home() {
                   src={"/assets/images/can-kilic.png"}
                   alt=""
                 />
-                <h2 className="font-bold mb-2 md:mb-4 text-zinc-200 text-xl md:text-2xl xl:text-3xl ">
+                <h2 className="font-bold mb-2 md:mb-4 text-zinc-200 text-xl md:text-2xl xl:text-3xl">
                   Hello World!
                   <span className="animate-[wawe_2.1s_ease-in-out_infinite] ml-3 inline-block origin-[70%_70%]">
                     👋🏻
