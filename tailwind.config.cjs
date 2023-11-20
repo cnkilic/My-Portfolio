@@ -25,6 +25,12 @@ module.exports = {
       spacing: {
         '0.75': '0.21rem',
       },
+      fontSize: {
+        xxs: ['0.625rem', '0.75rem'],
+        ssm: ['0.8125rem', '1.125rem'],
+        xll: ['1.375rem', '1.875rem'],
+        "2xll": ['1.6875rem', '2.125rem'],
+      },
       animation: {
         wiggle: "wiggle 1s ease-in-out infinite",
       },

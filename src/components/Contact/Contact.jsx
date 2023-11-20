@@ -154,7 +154,7 @@ function Contact() {
                       Get in Touch
                     </h2>
                     <div>
-                      <p className="text-lg">
+                      <p className="text-base">
                         Whether you want to get in touch, talk about a project
                         collaboration, or just say hi, I'd love to hear from
                         you.

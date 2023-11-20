@@ -5,8 +5,8 @@ import { Fade, Rotate } from "react-awesome-reveal";
 function About() {
   return (
     <section id="About">
-      <div className="container max-w-full py-8 sm:py-12 px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32 bg-zinc-200 ">
-        <h1 className="text-xl md:text-2xl xl:text-3xl font-bold mb-4  md:mb-6 lg:mb-10 xl:mb-16 text-center">
+      <div className="container max-w-full py-6 md:py-8  xl:py-12 px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32 bg-zinc-200 ">
+        <h1 className="text-2xl md:text-2xll xl:text-3xl font-bold mb-4  md:mb-6 lg:mb-10 xl:mb-16 text-center">
           About Me & My Skills
         </h1>
 
@@ -25,7 +25,7 @@ function About() {
               </p>
             </Fade>
             <Fade triggerOnce duration={1500} direction="left">
-              <p className="mb-4 text-xs md:text-sm xl:text-base 2xl:text-lg font-medium">
+              <p className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
                 My journey in software development started after I graduated
                 from METU with a degree in Civil Engineering. I realized that my
                 true passion lay in software, so I dedicated all my free time to
@@ -33,14 +33,14 @@ function About() {
                 about the industry, I decided to specialize in Front-End
                 development using the ReactJS library.
               </p>
-              <p className="mb-4 text-xs md:text-sm xl:text-base 2xl:text-lg font-medium">
+              <p className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
                 Currently, I am employed as a Front-End developer at Inavitas.
                 Here, I create visually appealing and user-friendly components, tables and
                 graphs that bring data analysis to life using ReactJS. To stay
                 up to date with industry advancements, I work on side projects
                 and learn new technologies in my free time.
               </p>
-              <p className="mb-4 text-xs md:text-sm xl:text-base 2xl:text-lg font-medium">
+              <p className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
                 I am always eager to take on new challenges that allow me to
                 utilize my skills and experience while offering opportunities
                 for growth and advancement. If you're interested in

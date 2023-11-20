@@ -7,8 +7,8 @@ function Projects() {
     {
       title: "Technical Card",
       descriptions: [
-        "⭐️ This is a multi-page website with 20 pages that are all fully responsive,",
-        "⭐️ The Figma design was provided by the client, and a pixel-perfect and user-friendly web and mobile interfaces were created by me based on the design.",
+        "▶️ This is a multi-page website with 20 pages that are all fully responsive.",
+        "▶️  The Figma design was provided by the client, and a pixel-perfect and user-friendly web and mobile interfaces were created by me based on the design.",
       ],
       techStacks: [
         "HTML5",
@@ -26,8 +26,8 @@ function Projects() {
     {
       title: "Chef's Meals",
       descriptions: [
-        "⭐️ A prototype food order page for a prototype bussiness called Chef's Meals. It's fully responsive and dynamic.",
-        "⭐️ After confirmation of the order the app stores your order summary and address details in the database .",
+        "▶️ A prototype food order page for a prototype bussiness called Chef's Meals. It's fully responsive and dynamic.",
+        "▶️ After confirmation of the order, the app stores your order summary and address details in the database.",
       ],
       techStacks: ["React", "CSS3", "JavaScript", "API", "Firebase"],
       gitHubLink: "https://github.com/cnkilic/Food-Order-App",
@@ -38,8 +38,8 @@ function Projects() {
     {
       title: "Great Quotes",
       descriptions: [
-        "⭐️ This app allows users to generate quotes and share their thoughts or opinions by adding comments.",
-        "⭐️ After selecting a quote, users can submit a comment, which will be saved in the database.",
+        "▶️ This app allows users to generate quotes and share their thoughts or opinions by adding comments.",
+        "▶️ After selecting a quote, users can submit a comment, which will be saved in the database.",
       ],
       techStacks: ["React.js", "CSS3", "JavaScript", "API", "Firebase"],
       gitHubLink: "https://github.com/cnkilic/Great-Quotes-App",
@@ -84,8 +84,8 @@ function Projects() {
 
   return (
     <section id="Projects">
-      <div className="container max-w-full py-12 px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32 bg-zinc-100 ">
-        <h1 className="text-3xl font-bold mb-16 text-center">My Projects</h1>
+      <div className="container max-w-full py-6 md:py-8 xl:py-12 px-4 md:px-16 lg:px-20 xl:px-24 2xl:px-32 bg-zinc-100 ">
+        <h1 className="text-2xl md:text-2xll xl:text-3xl font-bold mb-6 md:mb-6 lg:mb-10 xl:mb-16  text-center">My Projects</h1>
         {projectData.slice(0, 3).map((project) => (
           <Sample
             key={project.title}

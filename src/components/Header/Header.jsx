@@ -36,7 +36,7 @@ function Header() {
       <div
         className={`transition-transform duration-500 ease-in-out font-semibold ${
           visible ? "transform translate-y-0" : "transform -translate-y-full"
-        } container fixed items-center z-10 opacity-90 shadow-2xl max-w-full mx-auto py-4 px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32 flex justify-between ${
+        } container fixed items-center z-10 opacity-90 shadow-2xl max-w-full mx-auto py-4 px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32 flex justify-between ${
           currentScrollPosition < 30
             ? "text-zinc-200 bg-transparent shadow-none"
             : "text-black bg-zinc-100"
@@ -117,7 +117,7 @@ function Header() {
         className={`md:hidden bg-zinc-100 text-black shadow-lg font-bold justify-center text-center fixed flex-col top-0 z-30 left-0 right-0 duration-500 ease-in-out 
           ${isMobileMenuOpen ? "-translate-y-0 " : "-translate-y-full"}`}
       >
-        <div className="flex flex-row justify-between mt-4 px-8">
+        <div className="flex flex-row justify-between mt-4 px-4 sm:px-8">
           <div className="logo flex align-middle justify-center text-center items-center">
             <a href="#Home" onClick={toggleMobileMenu}>
               <h1 className="text-lg md:text-xl xl:text-2xl font-bold">

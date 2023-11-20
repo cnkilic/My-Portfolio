@@ -16,9 +16,11 @@ function Experieces() {
   const Experiences = [{}];
   return (
     <section id="Experiences">
-      <div className="container max-w-full py-12 px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32 bg-zinc-200 ">
-        <h1 className="text-3xl font-bold mb-16 text-center">Experiences</h1>
-        <VerticalTimeline>
+      <div className="container max-w-full py-6 md:py-8 xl:py-12 px-4 md:px-16 lg:px-20 xl:px-24 2xl:px-32 bg-zinc-200 ">
+        <h1 className="text-2xl md:text-2xll xl:text-3xl font-bold mb-2 md:mb-4 lg:mb-4 xl:mb-8 2xl:mb-12  text-center">
+          Experiences
+        </h1>
+        <VerticalTimeline  style={{ padding: "0px" }}>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date="September 2022 - Present"
@@ -32,7 +34,6 @@ function Experieces() {
             }}
             iconStyle={{
               background: "#FFF",
-              color: "#61DBFB",
               cursor: "pointer",
               boxShadow:
                 "0 0 0 4px #fff, inset 0px 0px 0px rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05) ",
@@ -49,24 +50,30 @@ function Experieces() {
               </a>
             </h3>
 
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              React.js
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              Node.js
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              JavaScript
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              CSS
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              HTML5
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              SASS
-            </span>
+            <div className="flex flex-row flex-wrap">
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                React.js
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                Node.js
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                JavaScript
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                CSS
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                Redux
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                JIRA
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                RxJS
+              </span>
+            </div>
+
             <p>
               ➢ Built functional, Reusable, Unit Testable, Easy to read and
               debug user interfaces using React.js (HighCharts.js, AGGrid),
@@ -92,7 +99,6 @@ function Experieces() {
             date="May 2022 - September 2022"
             iconStyle={{
               background: "#FFF",
-              color: "#f7df1e",
               cursor: "pointer",
               boxShadow:
                 "0 0 0 4px #fff, inset 0px 0px 0px rgba(0,0,0,.08), 0 3px 0 4px rgba(0,0,0,.05)",
@@ -112,21 +118,26 @@ function Experieces() {
                 Arina Digital
               </a>
             </h3>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              JavaScript
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              CSS
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              HTML5
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              SASS
-            </span>
-            <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
-              Bootstrap
-            </span>
+            <div className="flex flex-row flex-wrap">
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                JavaScript
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                CSS
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                HTML5
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                SASS
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                Bootstrap
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-3xl text-xs m-1">
+                Gulp.js
+              </span>
+            </div>
             <p>
               {" "}
               ➢ Build pixel-perfect, user friendly web and mobile interfaces by
