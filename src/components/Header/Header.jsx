@@ -104,10 +104,24 @@ function Header() {
             </li>
           </ul>
           <button
-            className="md:hidden ml-2 text-3xl focus:outline-none"
+            className="flex flex-col gap-1 md:hidden text-3xl focus:outline-none w-8"
             onClick={toggleMobileMenu}
           >
-            ☰
+            <span
+              className={`w-5 h-0.5  ${
+                currentScrollPosition < 30 ? "bg-zinc-100" : "bg-black"
+              }`}
+            />
+            <span
+              className={`w-5 h-0.5  ${
+                currentScrollPosition < 30 ? "bg-zinc-100" : "bg-black"
+              }`}
+            />
+            <span
+              className={`w-5 h-0.5  ${
+                currentScrollPosition < 30 ? "bg-zinc-100" : "bg-black"
+              }`}
+            />
           </button>
         </div>
       </div>
@@ -126,7 +140,10 @@ function Header() {
             </a>
           </div>
           <div>
-            <button className="md:hidden focus:outline-none" onClick={toggleMobileMenu}>
+            <button
+              className="md:hidden focus:outline-none"
+              onClick={toggleMobileMenu}
+            >
               <div className="w-6 h-6 flex flex-col justify-between items-center cursor-pointer relative">
                 <span className="w-5 h-0.75 bg-black transition-all transform origin-center rotate-45 absolute bottom-2"></span>
                 <span className="w-5 h-0.75 bg-black transition-all transform origin-center -rotate-45 absolute bottom-2"></span>

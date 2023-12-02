@@ -85,7 +85,7 @@ function Projects() {
   return (
     <section id="Projects">
       <div className="container max-w-full py-6 md:py-8 xl:py-12 px-4 md:px-16 lg:px-20 xl:px-24 2xl:px-32 bg-zinc-100 ">
-        <h1 className="text-2xl md:text-2xll xl:text-3xl font-bold mb-6 md:mb-6 lg:mb-10 xl:mb-16  text-center">My Projects</h1>
+        <h1 className="text-2xl md:text-2xll xl:text-3xl font-bold mb-6 md:mb-8 lg:mb-10 xl:mb-16  text-center">My Projects</h1>
         {projectData.slice(0, 3).map((project) => (
           <Sample
             key={project.title}
