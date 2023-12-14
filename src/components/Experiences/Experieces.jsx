@@ -4,10 +4,6 @@ import {
   VerticalTimelineElement,
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
-import { BiLinkExternal } from "react-icons/bi";
-import { SiJavascript } from "react-icons/Si";
-import { FaReact } from "react-icons/fa";
-import ArinaDigital from "/assets/images/arinaDigitalLogo.svg";
 import { FaHourglassStart } from "react-icons/fa";
 
 // import reactIcon from "/public/images/reactIcon.png";
