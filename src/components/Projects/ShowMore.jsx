@@ -9,7 +9,7 @@ function ShowMore({ showMoreData }) {
   return (
     <div>
       {showMore && (
-        <div className="grid grid-cols-3 2xl:grid-cols-4 gap-4 mb-8 ease-out">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 mb-8 ease-out">
           <Fade triggerOnce  direction="up">
             {showMoreData.map((showMoreSample) => (
               <ShowMoreSample
@@ -30,16 +30,16 @@ function ShowMore({ showMoreData }) {
           onClick={() => setShowMore(!showMore)}
           className="flex flex-row cursor-pointer"
         >
-          <div className="border-b  border-gray-500 w-2/5 mb-2.5" />
-          <div className="flex flex-row w-1/5 text-center justify-center ">
-            <div className="mr-3">Show {showMore ? "Less" : "More"} </div>
+          <div className="border-b  border-gray-500 w-4/12 lg:w-5/12 mb-2.5" />
+          <div className="flex flex-row w-4/12 lg:w-2/12 text-center justify-center ">
+            <div className="mr-0 sm:mr-3 text-ssm md:text-sm xl:text-base 2xl:text-lg">Show {showMore ? "Less" : "More"} </div>
             {showMore ? (
               <MdExpandLess className="h-full w-6" />
             ) : (
               <MdExpandMore className="h-full w-6" />
             )}
           </div>
-          <div className="border-b  border-gray-500 w-2/5 mb-2.5" />
+          <div className="border-b  border-gray-500 w-4/12 lg:w-5/12 mb-2.5" />
         </div>
       </Fade>
     </div>

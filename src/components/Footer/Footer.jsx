@@ -5,10 +5,10 @@ import { AiFillInstagram,AiFillMail} from "react-icons/ai"
 function Footer() {
   return (
     <>
-      <div className="bg-white py-3 shadow-md text-center flex justify-between px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32">
-        <div className="font-medium">Designed and Developed by Can Kılıç </div>
-        <div className="font-medium">Copyright © 2023 CK</div>
-        <div className="flex gap-6 fill-neutral-600">
+      <div className="bg-white py-3 flex-wrap md:flex-nowrap shadow-md  flex flex-col sm:flex-row justify-center items-center sm:justify-between  px-4 sm:px-8 md:px-16 lg:px-20 xl:px-24 2xl:px-32">
+        <div className="font-medium text-ssm md:text-sm xl:text-base">Designed and Developed by Can Kılıç </div>
+        <div className="font-medium text-ssm md:text-sm xl:text-base">Copyright © 2023 CK</div>
+        <div className="gap-3 md:gap-4 lg:gap-6 fill-neutral-600 hidden sm:flex">
           <a
             href="https://www.linkedin.com/in/can-kilicc-"
             rel="noopener noreferrer"

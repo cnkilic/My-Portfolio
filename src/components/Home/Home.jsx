@@ -33,20 +33,20 @@ function Home() {
                   src={"/assets/images/can-kilic.png"}
                   alt=""
                 />
-                <h2 className="font-bold mb-2 md:mb-4 text-zinc-200 text-xl md:text-2xl xl:text-3xl">
+                <h2 className="font-semibold mb-2 md:mb-4 text-zinc-200 text-xl md:text-2xl xl:text-2xl 2xl:text-3xl">
                   Hello World!
                   <span className="animate-[wawe_2.1s_ease-in-out_infinite] ml-3 inline-block origin-[70%_70%]">
                     👋🏻
                   </span>
                 </h2>
-                <h1 className="text-3xl md:text-4xl xl:text-5xl font-bold mb-2 sm:mb-4 md:mb-6 text-zinc-200">
+                <h1 className="text-3xl md:text-4xl xl:text-4xl 2xl:text-5xl font-bold mb-2 sm:mb-4 md:mb-6 text-zinc-200">
                   I'm Can Kılıç
                 </h1>
-                <h2 className="text-lg md:text-xl xl:text-3xl font-medium mb-3 sm:mb-4 md:mb-6 text-zinc-200">
+                <h2 className="text-lg md:text-2xl xl:text-2xl 2xl:text-3xl font-medium mb-3 sm:mb-4 md:mb-6 text-zinc-200">
                   <Type />
                 </h2>
                 <a
-                  className="text-sm md:text-md lg:text-lg 2xl:text-xl font-medium rounded-full bg-zinc-200 py-1.5  md:py-2 px-4 md:px-6 hover:bg-zinc-100 hover:shadow-xl"
+                  className="text-sm md:text-base lg:text-lg 2xl:text-xl  font-medium rounded-full bg-zinc-200 py-1.5  2xl:py-2 px-4 md:px-6 hover:bg-zinc-100 hover:shadow-xl"
                   href="#Projects"
                 >
                   View My Projects

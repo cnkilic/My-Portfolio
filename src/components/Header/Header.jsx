@@ -44,7 +44,7 @@ function Header() {
       >
         <div className="logo flex align-middle justify-center text-center items-center">
           <a href="#Home">
-            <h1 className="text-lg md:text-xl xl:text-2xl font-bold">
+            <h1 className="text-lg md:text-xl  xl:text-xl 2xl:text-2xl font-bold">
               Can.dev
             </h1>
           </a>
