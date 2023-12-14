@@ -7,8 +7,8 @@ function Projects() {
     {
       title: "Technical Card",
       descriptions: [
-        "▶️ This is a multi-page website with 20 pages that are all fully responsive.",
-        "▶️  The Figma design was provided by the client, and a pixel-perfect and user-friendly web and mobile interfaces were created by me based on the design.",
+        "► This is a multi-page website with 20 pages that are all fully responsive.",
+        "► The Figma design was provided by the client, and a pixel-perfect and user-friendly web and mobile interfaces were created by me based on the design.",
       ],
       techStacks: [
         "HTML5",
@@ -26,8 +26,8 @@ function Projects() {
     {
       title: "Chef's Meals",
       descriptions: [
-        "▶️ A prototype food order page for a prototype bussiness called Chef's Meals. It's fully responsive and dynamic.",
-        "▶️ After confirmation of the order, the app stores your order summary and address details in the database.",
+        "► A prototype food order page for a prototype bussiness called Chef's Meals. It's fully responsive and dynamic.",
+        "► After confirmation of the order, the app stores your order summary and address details in the database.",
       ],
       techStacks: ["React", "CSS3", "JavaScript", "API", "Firebase"],
       gitHubLink: "https://github.com/cnkilic/Food-Order-App",
@@ -38,8 +38,8 @@ function Projects() {
     {
       title: "Great Quotes",
       descriptions: [
-        "▶️ This app allows users to generate quotes and share their thoughts or opinions by adding comments.",
-        "▶️ After selecting a quote, users can submit a comment, which will be saved in the database.",
+        "► This app allows users to generate quotes and share their thoughts or opinions by adding comments.",
+        "► After selecting a quote, users can submit a comment, which will be saved in the database.",
       ],
       techStacks: ["React.js", "CSS3", "JavaScript", "API", "Firebase"],
       gitHubLink: "https://github.com/cnkilic/Great-Quotes-App",

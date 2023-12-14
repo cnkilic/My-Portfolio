@@ -53,7 +53,7 @@ function Contact() {
 
   return (
     <>
-      <div className="h-screen">
+      <div className="h-screen" id="Contact">
         <Parallax ref={ref} pages={1.02}>
           <ParallaxLayer
             offset={0}
@@ -85,7 +85,7 @@ function Contact() {
               justifyContent: "center",
             }}
           >
-            <section id="Contact">
+            <section >
               <div className="container max-w-10xl  lg:py-24 px-12 sm:px-28 md:px-36 lg:px-20 xl:px-32  ">
                 <div className="bg-zinc-200 gap-4 md:gap-5 lg:gap-12 xl:gap-16 2xl:gap-20 grid grid-cols-1 lg:grid-cols-2 py-5 sm:py-7 lg:py-9 px-8 md:px-12 lg:px-16 rounded-xl">
                   <div>
