@@ -6,8 +6,6 @@ import {
 import "react-vertical-timeline-component/style.min.css";
 import { FaHourglassStart } from "react-icons/fa";
 
-// import reactIcon from "/public/images/reactIcon.png";
-
 function Experieces() {
   const Experiences = [{}];
   const [showDate, setShowDate] = useState();
