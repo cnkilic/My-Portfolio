@@ -13,40 +13,40 @@ function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-between">
           <div className="flex flex-col justify-center">
             <Fade triggerOnce duration={1500} direction="left">
-              <p className="mb-2 text-base md:text-lg xl:text-xl 2xl:text-2xl font-medium">
+              <div className="mb-2 text-ssm md:text-sm xl:text-base 2xl:text-lg font-bold">
                 Welcome to my portfolio page! My name is Can Kılıç, and I am a
                 frontend web developer from Turkey.
-              </p>
+              </div>
             </Fade>
             <Fade triggerOnce duration={1500} direction="left">
-              <p className="mb-4 text-sm md:text-base xl:text-lg 2xl:text-xl  font-medium">
+              <div className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-semibold">
                 I'm passionate about cutting-edge, pixel-perfect, responsive
                 user interfaces and dynamic user experiences.
-              </p>
+              </div>
             </Fade>
             <Fade triggerOnce duration={1500} direction="left">
-              <p className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
+              <div className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
                 My journey in software development started after I graduated
                 from METU with a degree in Civil Engineering. I realized that my
                 true passion lay in software, so I dedicated all my free time to
                 learning full-stack development. As I gained more knowledge
                 about the industry, I decided to specialize in Front-End
                 development using the ReactJS library.
-              </p>
-              <p className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
+              </div>
+              <div className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
                 Currently, I am employed as a Front-End developer at Inavitas.
                 Here, I create visually appealing and user-friendly components, tables and
                 graphs that bring data analysis to life using ReactJS. To stay
                 up to date with industry advancements, I work on side projects
                 and learn new technologies in my free time.
-              </p>
-              <p className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
+              </div>
+              <div className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-medium">
                 I am always eager to take on new challenges that allow me to
                 utilize my skills and experience while offering opportunities
                 for growth and advancement. If you're interested in
                 collaborating or learning more about my work, feel free to get
                 in touch with me.
-              </p>
+              </div>
             </Fade>
           </div>
           <div className="flex justify-center items-center text-sm  md:text-base pl-12 pr-12  sm:pl-36 sm:pr-36   md:pl-44 md:pr-44 lg:px-0 lg:pl-24 xl:pl-32 2xl:pl-48">

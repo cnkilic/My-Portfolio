@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useRef, useState, useEffect } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { AiFillInstagram, AiFillMail } from "react-icons/ai";
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
@@ -11,6 +11,25 @@ function Contact() {
   const formRef = useRef();
   const [formModalOpen, setFormModalOpen] = useState(false);
   const [modalContent, setModalContent] = useState("success");
+  const [showParalax, setShowParalax] = useState(window.innerWidth >= 1026);
+
+  useEffect(() => {
+    // Add an event listener to update showDate on window resize
+    const handleResize = () => {
+      setShowParalax(window.innerWidth >= 1170); // Set your desired width
+    };
+
+    // Initial check on mount
+    handleResize();
+
+    // Attach the event listener
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const handleSubmit = (event) => {
     event.preventDefault();
@@ -54,7 +73,7 @@ function Contact() {
   return (
     <>
       <div className="h-screen" id="Contact">
-        <Parallax ref={ref} pages={1.02}>
+        <Parallax ref={ref} pages={showParalax ? 1.02 : 1.0}>
           <ParallaxLayer
             offset={0}
             speed={5}
@@ -85,7 +104,7 @@ function Contact() {
               justifyContent: "center",
             }}
           >
-            <section >
+            <section>
               <div className="container max-w-10xl  lg:py-24 px-12 sm:px-28 md:px-36 lg:px-20 xl:px-32  ">
                 <div className="bg-zinc-200 gap-4 md:gap-5 lg:gap-12 xl:gap-16 2xl:gap-20 grid grid-cols-1 lg:grid-cols-2 py-5 sm:py-7 lg:py-9 px-8 md:px-12 lg:px-16 rounded-xl">
                   <div>
@@ -95,7 +114,7 @@ function Contact() {
                     <h2 className="text-xl md:text-2xl xl:text-2xll font-semibold mb-4 md:mb-6 xl:mb-8 block lg:hidden text-center lg:text-left">
                       Get in Touch
                     </h2>
-                    <div >
+                    <div>
                       <form
                         ref={formRef}
                         onSubmit={handleSubmit}
@@ -142,7 +161,7 @@ function Contact() {
                             placeholder="Write something here..."
                           />
                         </div>
-                        <div className=""> 
+                        <div className="">
                           <button
                             className=" text-sm md:text-base lg:text-base font-medium rounded-full py-1.5  2xl:py-2 px-4 md:px-6  bg-blue-500 text-white "
                             type="submit"
@@ -167,7 +186,7 @@ function Contact() {
                         contact me via these platforms.
                       </div>
                       <div className="flex mt-5 sm:mt-6 justify-center lg:justify-start gap-6">
-                        <div >
+                        <div>
                           <a
                             href="https://www.linkedin.com/in/can-kilicc-"
                             rel="noopener noreferrer"
