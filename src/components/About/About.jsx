@@ -13,13 +13,13 @@ function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 justify-between">
           <div className="flex flex-col justify-center">
             <Fade triggerOnce duration={1500} direction="left">
-              <div className="mb-2 text-ssm md:text-sm xl:text-base 2xl:text-lg font-bold">
+            <div className="mb-4 text-sm md:text-base xl:text-lg 2xl:text-xl font-semibold">
                 Welcome to my portfolio page! My name is Can Kılıç, and I am a
                 frontend web developer from Turkey.
               </div>
             </Fade>
             <Fade triggerOnce duration={1500} direction="left">
-              <div className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-semibold">
+            <div className="mb-4 text-ssm md:text-sm xl:text-base 2xl:text-lg font-semibold">
                 I'm passionate about cutting-edge, pixel-perfect, responsive
                 user interfaces and dynamic user experiences.
               </div>

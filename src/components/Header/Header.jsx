@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { IoMdDownload } from "react-icons/io";
+import { FaDownload } from "react-icons/fa6";
 
 function Header() {
   const [prevScrollPos, setPrevScrollPos] = useState(0);
@@ -93,12 +95,9 @@ function Header() {
                 target="_blank"
               >
                 <span>Resume</span>
-                <span>
-                  <img
-                    className="w-6"
-                    src="/assets/images/cv-icon.png"
-                    alt=""
-                  />
+                <span className="flex items-center">
+                  {/* <IoMdDownload className="w-5 h-5" /> */}
+                  <FaDownload />
                 </span>
               </a>
             </li>
@@ -189,20 +188,6 @@ function Header() {
                 Contact
               </a>
             </li>
-            {/* <li>
-              <a
-                className="flex px-4 py-2 hover:bg-slate-100 transition-all gap-3"
-                href="/Can_Kilic_CV.pdf"
-                rel="noopener noreferrer"
-                target="_blank"
-                onClick={toggleMobileMenu}
-              >
-                <span>Resume</span>
-                <span>
-                  <img className="w-6" src="/assets/images/cv-icon.png" alt="" />
-                </span>
-              </a>
-            </li> */}
             <li>
               <a
                 className="mt-1 bg-slate-700 text-zinc-100 flex items-center gap-2 w-fit mx-auto md:gap-3 rounded-full px-4 lg:px-6 py-1.5 hover:bg-slate-600 transition-all border-slate-600 "
@@ -211,12 +196,9 @@ function Header() {
                 target="_blank"
               >
                 <span>Resume</span>
-                <span>
-                  <img
-                    className="w-5"
-                    src="/assets/images/cv-icon.png"
-                    alt=""
-                  />
+                <span className="flex items-center">
+                  <IoMdDownload className="w-5 h-5" />
+                  {/* <FaDownload /> */}
                 </span>
               </a>
             </li>
