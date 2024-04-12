@@ -18,7 +18,7 @@ function Projects() {
         "JavaScript",
         "Gulp.js",
       ],
-      gitHubLink: "https://github.com/cnkilic/Technical-Card",
+      // gitHubLink: "https://github.com/cnkilic/Technical-Card",
       externalLink: "https://www.teknikkart.com.tr/",
       image: "/assets/images/tKartwBg.png",
       imgLocation: "right",

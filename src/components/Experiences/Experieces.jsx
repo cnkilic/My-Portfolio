@@ -56,7 +56,7 @@ function Experieces() {
             }}
           >
             <h4 className="vertical-timeline-element-title text-base sm:text-lg md:text-xl xl:text-xl 2xl:text-2xl font-semibold ">
-              Full-Stack Developer
+              Frontend Developer
             </h4>
             <h3 className="vertical-timeline-element-subtitle my-1 font-medium text-sm sm:text-base md:text-lg xl:text-lg 2xl:text-xl">
               <a target="_blank" href="https://www.inavitas.com/">
@@ -67,42 +67,60 @@ function Experieces() {
               September 2022 - Present
             </h3>
 
-            <div className="flex flex-row flex-wrap text-xxs md:text-xs ">
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                React.js
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                Node.js
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                JavaScript
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">CSS</span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                Redux
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                JIRA
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                RxJS
-              </span>
-            </div>
             <div className="text-ssm md:text-sm xl:text-base flex flex-col gap-4 font-medium mt-3">
               <div>
-                ➢ Built functional, Reusable, Unit Testable, Easy to read and
-                debug user interfaces using React.js (HighCharts.js, AGGrid),
-                JavaScript, and CSS (Ant Design).
+                ➢ Led the transformation of our React application to a micro
+                front-end architecture, ensuring alignment with updated designs.
+                Achieved 100% coverage of main features, decreased customer wait
+                time by 35%, and reduced build time by 60%.
+              </div>
+              <div>
+                ➢ Covered core functionality by unit and e2e tests, resulting in
+                a 30% reduction in bug-related delays and a 20% increase in
+                overall code quality.
+              </div>
+              <div>
+                ➢ Collaborated with industry leaders like TAB Gıda, Havelsan,
+                and TEIAŞ on diverse projects including natural SCADA, Plant,
+                and Business. Ensured punctual delivery of new features and
+                played an active role in resolving bugs, resulting in a 20%
+                increase in customer satisfaction.
+              </div>
+              <div>
+                ➢ Enhanced user engagement by maintaining and updating over 15
+                widgets on the dashboard page, resulting in a 25% boost in
+                overall dashboard usability.
               </div>
               <div>
                 ➢ Worked with scrum and agile development principles using JIRA
                 and collaborated with team members using Microsoft Teams.
               </div>
-              <div>
-                ➢ Gained experience in REST APIs, Micro-service architecture,
-                Asynchronous programming (Axios), Rx.js, Git, GitLab, ESlint,
-                and Figma.
-              </div>
+            </div>
+
+            <div className="flex flex-row flex-wrap text-xxs md:text-xs mt-3">
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+                <span className="font-medium">Main Tech Stacks : </span>
+                React.js • JavaScript • TypeScript • Node.js/Express
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+              <span className="font-medium">State Management : </span>
+                 Redux • Zustand • MobX • TanStack-Query
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+              <span className="font-medium"> UI Libraries : </span>
+                CSS(SCSS) • AGGrid • Zustand • Highcharts • Ant
+                Design • Chart.js • Storybook • Fabric.js
+              </span>
+
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+              <span className="font-medium">Testing : </span>
+                 Jest • Playwright • React Testing Library
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+              <span className="font-medium">Familiar : </span>
+                 Micro Frontend • Jenkins • Rancher • Eslint • Stylint
+                • Microservice • Git • Gitlab • Figma.
+              </span>
             </div>
           </VerticalTimelineElement>
 
@@ -137,43 +155,48 @@ function Experieces() {
             <h3 className="vertical-timeline-element-subtitle my-1 font-medium text-ssm md:text-sm xl:text-base  opacity-70 block ">
               May 2022 - September 2022
             </h3>
-            <div className="flex flex-row flex-wrap text-xxs md:text-xs mt-2">
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                JavaScript
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">CSS</span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                HTML5
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                SASS
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                Bootstrap
-              </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-3xl m-1">
-                Gulp.js
-              </span>
-            </div>
+
             <div className="text-ssm md:text-sm xl:text-base flex flex-col gap-4 font-medium mt-3">
               <div>
-                ➢ Build pixel-perfect, user friendly web and mobile interfaces
-                by using HTML5, CSS3 (Sass, Less, Bootstrap), JavaScript etc...
+                ➢ Developed the entire front end of the{" "}
+                <a
+                  href="https://www.teknikkart.com.tr/"
+                  style={{ color: "#006ab5" }}
+                >
+                  Teknik Card
+                </a>{" "}
+                project from scratch. This included developing a fully
+                responsive website consisting of 20 pages.
               </div>
               <div>
-                ➢ Developed the whole frontend of Teknik Card
-                (https://www.teknikkart.com.tr/) and participated in the
-                renovation and development stages of projects such as Mbis and
-                Klimasan.
+                ➢ Achieved a 30% increase in user engagement and a 25% decrease
+                in bounce rate by translating Figma designs into pixel-perfect
+                and user-friendly web and mobile interfaces.
               </div>
               <div>
-                ➢ Collaborated with team members using BitBucket, Slack,
-                Microsoft Teams and Zoom applications.
+                ➢ Contributed to the renovation and development stages of Mbis
+                and Klimasan projects, resulting in improved project outcomes
+                and efficiencies.
               </div>
-              <div>
-                ➢ Experienced in responsive UX/UI development and became
-                familiar with xDesign and Figma design tools
-              </div>
+            </div>
+
+            <div className="flex flex-row flex-wrap text-xxs md:text-xs mt-3">
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+                JavaScript
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">CSS</span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+                HTML5
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+                SASS
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+                Bootstrap
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+                Gulp.js
+              </span>
             </div>
           </VerticalTimelineElement>
 

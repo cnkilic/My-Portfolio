@@ -21,7 +21,7 @@ function Header() {
 
       setPrevScrollPos(currentScrollPos);
     };
-
+ 
     window.addEventListener("scroll", handleScroll);
 
     return () => {
@@ -96,7 +96,6 @@ function Header() {
               >
                 <span>Resume</span>
                 <span className="flex items-center">
-                  {/* <IoMdDownload className="w-5 h-5" /> */}
                   <FaDownload />
                 </span>
               </a>
@@ -197,8 +196,7 @@ function Header() {
               >
                 <span>Resume</span>
                 <span className="flex items-center">
-                  <IoMdDownload className="w-5 h-5" />
-                  {/* <FaDownload /> */}
+                  <FaDownload />
                 </span>
               </a>
             </li>

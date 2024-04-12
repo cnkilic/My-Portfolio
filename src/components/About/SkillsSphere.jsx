@@ -32,6 +32,8 @@ function SkillsSphere() {
     "siNextdotjs",
     "siReact",
     "siRedux",
+    "siReactquery",
+    "siMobx",
     "siExpress",
     "siHtml5",
     "siCss3",
@@ -42,6 +44,10 @@ function SkillsSphere() {
     "siPostman",
     "siMongodb",
     "siFirebase",
+    "siJenkins",
+    "siEslint",
+    "siStylelint",
+    "siRancher",
     "siVercel",
     "siNetlify",
     "siGit",
@@ -56,6 +62,7 @@ function SkillsSphere() {
     "siStorybook",
     "siPlaywright",
     "siJest",
+    "siTestinglibrary",
   ].map((s) =>
     renderSimpleIcon({
       icon: AllIcons[s],

@@ -42,14 +42,16 @@ function Sample({
               ))}
             </div>
             <div className="flex flex-row gap-5 ">
-              <a
-                className=""
-                href={gitHubLink}
-                rel="noopener noreferrer"
-                target="_blank"
-              >
-                <FaGithub className="w-5 h-5 sm:w-6 sm:h-6  xl:w-7 xl:h-7  fill-gray-600  hover:fill-gray-800 hover:-translate-y-1 ease-out" />
-              </a>
+              {gitHubLink && (
+                <a
+                  className=""
+                  href={gitHubLink}
+                  rel="noopener noreferrer"
+                  target="_blank"
+                >
+                  <FaGithub className="w-5 h-5 sm:w-6 sm:h-6  xl:w-7 xl:h-7  fill-gray-600  hover:fill-gray-800 hover:-translate-y-1 ease-out" />
+                </a>
+              )}
               <a href={externalLink} rel="noopener noreferrer" target="_blank">
                 <BiLinkExternal className="w-5 h-5 sm:w-6 sm:h-6 xl:w-7 xl:h-7  fill-gray-600  hover:fill-gray-800 hover:-translate-y-1 ease-out" />
               </a>
