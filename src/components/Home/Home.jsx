@@ -1,15 +1,40 @@
-import React, { useRef } from "react";
-import Type from "./Type";
+import React, { useRef, useState, useEffect } from "react";
+
 import { Parallax, ParallaxLayer } from "@react-spring/parallax";
 import { Bounce, Fade } from "react-awesome-reveal";
+
+import Type from "./Type";
 
 function Home() {
   const ref = useRef();
 
+  const [showParalax, setShowParalax] = useState(window.innerWidth >= 1026);
+
+  useEffect(() => {
+    // Add an event listener to update showDate on window resize
+    const handleResize = () => {
+      setShowParalax(window.innerWidth >= 800); // Set your desired width
+    };
+
+    // Initial check on mount
+    handleResize();
+
+    // Attach the event listener
+    window.addEventListener("resize", handleResize);
+
+    // Clean up the event listener on component unmount
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
+
+  //  const height = showParalax ? "0px" : "50px"
+  const height = "0px";
+
   return (
-    <section id="Home">
-      <div className="h-screen">
-        <Parallax ref={ref} pages={1.05}>
+    <section id="Home " className="bg-zinc-200">
+      <div style={{ height: `calc(100vh - ${height})` }}>
+        <Parallax ref={ref} pages={showParalax ? 1.05 : 1.0}>
           <ParallaxLayer
             offset={0}
             speed={5}

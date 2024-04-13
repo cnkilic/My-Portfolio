@@ -1,18 +1,22 @@
 import React from "react";
-import Typewriter from "typewriter-effect";
+import { Typewriter } from "react-simple-typewriter";
 
 function Type() {
   return (
     <>
       <Typewriter
-        options={{
-          strings: ["Front-End Developer", "React Developer", "Full-Stack Developer"],
-          autoStart: true,
-          loop: true,
-          delay:50,
-          deleteSpeed: 30,
-          pauseFor:2000,
-        }}
+        words={[
+          "Front-End Developer",
+          "React Developer",
+          "Full-Stack Developer",
+        ]}
+        loop={false}
+        cursor
+        cursorStyle="|"
+        typeSpeed={70}
+        deleteSpeed={30}
+        delaySpeed={2000}
+        translate="no"
       />
     </>
   );
