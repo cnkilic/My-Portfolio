@@ -103,23 +103,23 @@ function Experieces() {
                 React.js • JavaScript • TypeScript • Node.js/Express
               </span>
               <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
-              <span className="font-medium">State Management : </span>
-                 Redux • Zustand • MobX • TanStack-Query
+                <span className="font-medium">State Management : </span>
+                Redux • Zustand • MobX • TanStack-Query
               </span>
               <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
-              <span className="font-medium"> UI Libraries : </span>
-                CSS(SCSS) • AGGrid • Zustand • Highcharts • Ant
-                Design • Chart.js • Storybook • Fabric.js
+                <span className="font-medium"> UI Libraries : </span>
+                CSS(SCSS) • AGGrid • Highcharts • Ant Design • Chart.js •
+                Storybook • Fabric.js
               </span>
 
               <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
-              <span className="font-medium">Testing : </span>
-                 Jest • Playwright • React Testing Library
+                <span className="font-medium">Testing : </span>
+                Jest • Playwright • React Testing Library
               </span>
               <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
-              <span className="font-medium">Familiar : </span>
-                 Micro Frontend • Jenkins • Rancher • Eslint • Stylint
-                • Microservice • Git • Gitlab • Figma.
+                <span className="font-medium">Familiar : </span>
+                Micro Frontend • Jenkins • Rancher • Eslint • Stylint •
+                Microservice • Git • Gitlab • Figma • SCSS/LESS/SASS.
               </span>
             </div>
           </VerticalTimelineElement>
@@ -188,14 +188,18 @@ function Experieces() {
               <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
                 HTML5
               </span>
-              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
-                SASS
-              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">SASS</span>
               <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
                 Bootstrap
               </span>
               <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
                 Gulp.js
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+                BitBucket
+              </span>
+              <span className="px-2 py-1 bg-zinc-200 rounded-xl m-1">
+                xDesign
               </span>
             </div>
           </VerticalTimelineElement>

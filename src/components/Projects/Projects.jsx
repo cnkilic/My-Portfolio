@@ -5,6 +5,55 @@ import ShowMore from "./ShowMore";
 function Projects() {
   const projectData = [
     {
+      title: "Energy Management System (EMS)",
+      descriptions: [
+        "► This project is actively used by over 40 businesses and power plants, offering more than 10 services, including Dashboard, Alarm Monitoring, Report Scheduling, and Analytics, to provide comprehensive energy management.",
+        "► An Energy Management System, empowering consumers to monitor and optimize energy consumption, driving sustainable practices and cost savings through innovative technology.",
+      ],
+      techStacks: [
+        "React",
+        "TypeScript",
+        "Redux",
+        "Zustand",
+        "SCSS",
+        "Jest",
+        "Playwright",
+        "Chart.js",
+        "Highcharts",
+        "AGGrid",
+        "AntDesign",
+        "ReactQuery",
+        "Storybook",
+      ],
+      // gitHubLink: "https://github.com/cnkilic/Technical-Card",
+      externalLink: "https://www.inavitas.com/enms",
+      image: "/assets/images/dashboardEms.png",
+      imgLocation: "right",
+    },
+    {
+      title: "Plant SCADA",
+      descriptions: [
+        "► This project, actively used by over 30 electric distribution companies, encompasses more than 6 services, including Graphic Editor, Dashboard, Alarm Management, and Report Scheduling.",
+        "► A Plant SCADA system that provides real-time insights and control, optimizing energy production, monitoring, and maintenance for seamless plant management.",
+      ],
+      techStacks: [
+        "React",
+        "TypeScript",
+        "Fabric.js",
+        "Redux",
+        "MobX",
+        "SCSS",
+        "Jest",
+        "Playwright",
+        "Chart.js",
+        "AntDesign",
+      ],
+      // gitHubLink: "https://github.com/cnkilic/Technical-Card",
+      externalLink: "https://www.inavitas.com/plant-scada",
+      image: "/assets/images/scadaGE.svg",
+      imgLocation: "left",
+    },
+    {
       title: "Technical Card",
       descriptions: [
         "► This is a multi-page website with 20 pages that are all fully responsive.",
